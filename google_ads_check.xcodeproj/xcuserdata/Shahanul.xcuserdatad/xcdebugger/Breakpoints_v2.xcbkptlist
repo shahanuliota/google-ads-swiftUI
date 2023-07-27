@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "35C69E5D-2428-406A-B378-12A040F51E5E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A27D610D-42A1-4BA7-AAF4-A9F11BB3FA39"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "google_ads_check/InfinityScroll.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "A27D610D-42A1-4BA7-AAF4-A9F11BB3FA39 - 9200709b13a295b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "google_ads_check.InfinityScroll.body.getter : some"
+                  moduleName = "google_ads_check"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shahanul/Documents/google_ads_check/google_ads_check/InfinityScroll.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "125">
+               </Location>
+               <Location
+                  uuid = "A27D610D-42A1-4BA7-AAF4-A9F11BB3FA39 - 8c6c40296b2b0537"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Button&lt;SwiftUI.Text&gt;, google_ads_check.InfiniteList&lt;Swift.Array&lt;google_ads_check.ListItem&gt;, SwiftUI.Text, SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;&gt;)&gt; in google_ads_check.InfinityScroll.body.getter : some"
+                  moduleName = "google_ads_check"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shahanul/Documents/google_ads_check/google_ads_check/InfinityScroll.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "282">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
