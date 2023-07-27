@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		362CB4A62A6652F600BA7E63 /* AdsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362CB4A52A6652F600BA7E63 /* AdsType.swift */; };
+		362CB4A92A665ACC00BA7E63 /* GoogleBannerAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362CB4A82A665ACC00BA7E63 /* GoogleBannerAds.swift */; };
+		362CB4AB2A665B4500BA7E63 /* AdsTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362CB4AA2A665B4500BA7E63 /* AdsTestView.swift */; };
+		362CB4AE2A665E0500BA7E63 /* FBAudienceNetwork.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362CB4AC2A665DD600BA7E63 /* FBAudienceNetwork.xcframework */; };
+		362CB4AF2A665E0500BA7E63 /* FBAudienceNetwork.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 362CB4AC2A665DD600BA7E63 /* FBAudienceNetwork.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		362CB4B22A665E3700BA7E63 /* FBBannerAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362CB4B12A665E3700BA7E63 /* FBBannerAds.swift */; };
+		362CB4B42A669D7F00BA7E63 /* RewardedAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362CB4B32A669D7F00BA7E63 /* RewardedAd.swift */; };
 		36519B502A63C041005C9DC8 /* google_ads_checkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36519B4F2A63C041005C9DC8 /* google_ads_checkApp.swift */; };
 		36519B522A63C041005C9DC8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36519B512A63C041005C9DC8 /* Persistence.swift */; };
 		36519B552A63C041005C9DC8 /* google_ads_check.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36519B532A63C041005C9DC8 /* google_ads_check.xcdatamodeld */; };
@@ -16,6 +23,12 @@
 		36519B672A63C043005C9DC8 /* google_ads_checkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36519B662A63C043005C9DC8 /* google_ads_checkTests.swift */; };
 		36519B712A63C043005C9DC8 /* google_ads_checkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36519B702A63C043005C9DC8 /* google_ads_checkUITests.swift */; };
 		36519B732A63C043005C9DC8 /* google_ads_checkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36519B722A63C043005C9DC8 /* google_ads_checkUITestsLaunchTests.swift */; };
+		36519B812A63F35C005C9DC8 /* SwiftUIInfiniteList in Frameworks */ = {isa = PBXBuildFile; productRef = 36519B802A63F35C005C9DC8 /* SwiftUIInfiniteList */; };
+		36519B832A63F373005C9DC8 /* InfinityScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36519B822A63F373005C9DC8 /* InfinityScroll.swift */; };
+		36519B872A6404B5005C9DC8 /* response.model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36519B862A6404B5005C9DC8 /* response.model.swift */; };
+		36519B892A640589005C9DC8 /* http_connect.interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36519B882A640589005C9DC8 /* http_connect.interface.swift */; };
+		36EE88822A652883005DDAD5 /* GoogleInterstitialAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EE88812A652883005DDAD5 /* GoogleInterstitialAds.swift */; };
+		36EE88892A6556DB005DDAD5 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 36EE88882A6556DB005DDAD5 /* GoogleMobileAds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +48,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		362CB4B02A665E0500BA7E63 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				362CB4AF2A665E0500BA7E63 /* FBAudienceNetwork.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		362CB4A52A6652F600BA7E63 /* AdsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsType.swift; sourceTree = "<group>"; };
+		362CB4A82A665ACC00BA7E63 /* GoogleBannerAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBannerAds.swift; sourceTree = "<group>"; };
+		362CB4AA2A665B4500BA7E63 /* AdsTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsTestView.swift; sourceTree = "<group>"; };
+		362CB4AC2A665DD600BA7E63 /* FBAudienceNetwork.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBAudienceNetwork.xcframework; sourceTree = "<group>"; };
+		362CB4B12A665E3700BA7E63 /* FBBannerAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBBannerAds.swift; sourceTree = "<group>"; };
+		362CB4B32A669D7F00BA7E63 /* RewardedAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedAd.swift; sourceTree = "<group>"; };
 		36519B4C2A63C041005C9DC8 /* google_ads_check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = google_ads_check.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36519B4F2A63C041005C9DC8 /* google_ads_checkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = google_ads_checkApp.swift; sourceTree = "<group>"; };
 		36519B512A63C041005C9DC8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -49,6 +82,11 @@
 		36519B6C2A63C043005C9DC8 /* google_ads_checkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = google_ads_checkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36519B702A63C043005C9DC8 /* google_ads_checkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = google_ads_checkUITests.swift; sourceTree = "<group>"; };
 		36519B722A63C043005C9DC8 /* google_ads_checkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = google_ads_checkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		36519B822A63F373005C9DC8 /* InfinityScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityScroll.swift; sourceTree = "<group>"; };
+		36519B862A6404B5005C9DC8 /* response.model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = response.model.swift; sourceTree = "<group>"; };
+		36519B882A640589005C9DC8 /* http_connect.interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = http_connect.interface.swift; sourceTree = "<group>"; };
+		36EE88812A652883005DDAD5 /* GoogleInterstitialAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleInterstitialAds.swift; sourceTree = "<group>"; };
+		36EE88862A654CF2005DDAD5 /* google-ads-check-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "google-ads-check-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36EE88892A6556DB005DDAD5 /* GoogleMobileAds in Frameworks */,
+				36519B812A63F35C005C9DC8 /* SwiftUIInfiniteList in Frameworks */,
+				362CB4AE2A665E0500BA7E63 /* FBAudienceNetwork.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +117,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		362CB4A42A6652E400BA7E63 /* ads */ = {
+			isa = PBXGroup;
+			children = (
+				36EE88812A652883005DDAD5 /* GoogleInterstitialAds.swift */,
+				362CB4A72A665AB300BA7E63 /* BannerAds */,
+				362CB4A52A6652F600BA7E63 /* AdsType.swift */,
+				362CB4B32A669D7F00BA7E63 /* RewardedAd.swift */,
+			);
+			path = ads;
+			sourceTree = "<group>";
+		};
+		362CB4A72A665AB300BA7E63 /* BannerAds */ = {
+			isa = PBXGroup;
+			children = (
+				362CB4A82A665ACC00BA7E63 /* GoogleBannerAds.swift */,
+				362CB4B12A665E3700BA7E63 /* FBBannerAds.swift */,
+			);
+			path = BannerAds;
+			sourceTree = "<group>";
+		};
 		36519B432A63C041005C9DC8 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +160,9 @@
 		36519B4E2A63C041005C9DC8 /* google_ads_check */ = {
 			isa = PBXGroup;
 			children = (
+				362CB4A42A6652E400BA7E63 /* ads */,
+				36EE88862A654CF2005DDAD5 /* google-ads-check-Info.plist */,
+				36519B842A63FA89005C9DC8 /* Core */,
 				36519B4F2A63C041005C9DC8 /* google_ads_checkApp.swift */,
 				36519B512A63C041005C9DC8 /* Persistence.swift */,
 				36519B562A63C041005C9DC8 /* ContentView.swift */,
@@ -106,6 +170,9 @@
 				36519B5A2A63C043005C9DC8 /* google_ads_check.entitlements */,
 				36519B532A63C041005C9DC8 /* google_ads_check.xcdatamodeld */,
 				36519B5B2A63C043005C9DC8 /* Preview Content */,
+				36519B822A63F373005C9DC8 /* InfinityScroll.swift */,
+				362CB4AA2A665B4500BA7E63 /* AdsTestView.swift */,
+				362CB4AC2A665DD600BA7E63 /* FBAudienceNetwork.xcframework */,
 			);
 			path = google_ads_check;
 			sourceTree = "<group>";
@@ -135,6 +202,23 @@
 			path = google_ads_checkUITests;
 			sourceTree = "<group>";
 		};
+		36519B842A63FA89005C9DC8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				36519B852A640481005C9DC8 /* abstractions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		36519B852A640481005C9DC8 /* abstractions */ = {
+			isa = PBXGroup;
+			children = (
+				36519B862A6404B5005C9DC8 /* response.model.swift */,
+				36519B882A640589005C9DC8 /* http_connect.interface.swift */,
+			);
+			path = abstractions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,12 +229,17 @@
 				36519B482A63C041005C9DC8 /* Sources */,
 				36519B492A63C041005C9DC8 /* Frameworks */,
 				36519B4A2A63C041005C9DC8 /* Resources */,
+				362CB4B02A665E0500BA7E63 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = google_ads_check;
+			packageProductDependencies = (
+				36519B802A63F35C005C9DC8 /* SwiftUIInfiniteList */,
+				36EE88882A6556DB005DDAD5 /* GoogleMobileAds */,
+			);
 			productName = google_ads_check;
 			productReference = 36519B4C2A63C041005C9DC8 /* google_ads_check.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +312,10 @@
 				Base,
 			);
 			mainGroup = 36519B432A63C041005C9DC8;
+			packageReferences = (
+				36519B7F2A63F35C005C9DC8 /* XCRemoteSwiftPackageReference "swiftui-infinite-list" */,
+				36EE88872A6556DB005DDAD5 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
 			productRefGroup = 36519B4D2A63C041005C9DC8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -265,10 +358,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36EE88822A652883005DDAD5 /* GoogleInterstitialAds.swift in Sources */,
+				362CB4B42A669D7F00BA7E63 /* RewardedAd.swift in Sources */,
+				362CB4A62A6652F600BA7E63 /* AdsType.swift in Sources */,
+				362CB4AB2A665B4500BA7E63 /* AdsTestView.swift in Sources */,
 				36519B502A63C041005C9DC8 /* google_ads_checkApp.swift in Sources */,
+				362CB4A92A665ACC00BA7E63 /* GoogleBannerAds.swift in Sources */,
+				36519B892A640589005C9DC8 /* http_connect.interface.swift in Sources */,
+				36519B872A6404B5005C9DC8 /* response.model.swift in Sources */,
 				36519B552A63C041005C9DC8 /* google_ads_check.xcdatamodeld in Sources */,
 				36519B572A63C041005C9DC8 /* ContentView.swift in Sources */,
 				36519B522A63C041005C9DC8 /* Persistence.swift in Sources */,
+				362CB4B22A665E3700BA7E63 /* FBBannerAds.swift in Sources */,
+				36519B832A63F373005C9DC8 /* InfinityScroll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +529,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "google-ads-check-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -437,11 +540,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iota.google-ads-check";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -465,6 +569,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "google-ads-check-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -475,11 +580,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iota.google-ads-check";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -620,6 +726,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		36519B7F2A63F35C005C9DC8 /* XCRemoteSwiftPackageReference "swiftui-infinite-list" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/globulus/swiftui-infinite-list.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		36EE88872A6556DB005DDAD5 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		36519B802A63F35C005C9DC8 /* SwiftUIInfiniteList */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36519B7F2A63F35C005C9DC8 /* XCRemoteSwiftPackageReference "swiftui-infinite-list" */;
+			productName = SwiftUIInfiniteList;
+		};
+		36EE88882A6556DB005DDAD5 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36EE88872A6556DB005DDAD5 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		36519B532A63C041005C9DC8 /* google_ads_check.xcdatamodeld */ = {
